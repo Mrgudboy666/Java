@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+class GFG 
+{
+    static void Swapvalues(int m,int n)
+    {
+        int temp=m;
+        m=n;
+        n=temp;
+        System.out.println("Value of m is : "+m + " and Value of n : "+n);
+    }
+    public static void main(String args[])
+    {
+        int m=9,n=5;
+        Swapvalues(m,n);
+    }
+}
